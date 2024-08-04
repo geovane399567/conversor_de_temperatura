@@ -6,7 +6,7 @@ function convertTemp() {
     let result;
 
     if (isNaN(inputTemp)) {
-        result = "Por favor, insira um valor válido.";
+        return document.getElementById('result').innerText = `Por favor, insira um valor válido em ${inputUnit}.`;
     } else {
         if (inputUnit === outputUnit) {
             result = inputTemp;
