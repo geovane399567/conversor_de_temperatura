@@ -31,7 +31,7 @@ function convertTemp() {
         }
     }
 
-    document.getElementById('result').innerText = `Resultado: ${result} ${outputUnit.charAt(0).toUpperCase() + outputUnit.slice(1)}`;
+    document.getElementById('result').innerText = `Resultado: ${result.toFixed(2)} ${outputUnit.charAt(0).toUpperCase() + outputUnit.slice(1)}`;
 }
 
 function resetApp() {
