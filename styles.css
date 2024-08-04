@@ -25,6 +25,11 @@ body {
     width: 300px;
 }
 
+.container > h1 {
+    color: #007BFF;
+    margin: 10px 0;
+}
+
 input, select, button {
     width: 100%;
     padding: 10px;
